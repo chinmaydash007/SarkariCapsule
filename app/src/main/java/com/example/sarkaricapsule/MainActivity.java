@@ -52,7 +52,10 @@ WebView webView;
         if(webView.canGoBack()){
             webView.goBack();
         }
-        super.onBackPressed();
+        else{
+            super.onBackPressed();
+
+        }
 
     }
 }
